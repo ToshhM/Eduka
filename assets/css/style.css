@@ -5,7 +5,7 @@
 
 body{
     font-family: futura;
-    background-image: ;
+    
 }
 
 .home{
@@ -41,6 +41,7 @@ body{
     justify-content: center;
     flex-direction: column;
     height: 600px;
+    
     
 }
 .Navbar{
