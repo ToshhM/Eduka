@@ -1,11 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: futura;
     background-image: ;
 }
 
 .home{
-    height: 812px;
-    width: 372px;
+    height: 100vh;
+    width: 100vw;
     background-color:#3299CC ;
 }
 .image{
@@ -39,10 +44,9 @@ body{
     
 }
 .Navbar{
-height: 50px; 
-width: 372px;
-background-color: dimgray;
-
+    height: 50px; 
+    width: 100%;
+    background-color: dimgray;
 }
 h1{
     color: white;
