@@ -1,0 +1,33 @@
+body{
+    font-family: futura;
+}
+
+.home{
+    height: 812px;
+    width: 372px;
+    background-color:#3299CC ;
+}
+.image{
+    display: flex;
+    height: 500px;
+    width: 372px;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.logo{
+    display: flex;
+    color: white;
+    height: 412px;
+    width: 372px;
+    text-align: center;    
+    align-items: center;
+    justify-content: center;
+
+}
+.Navbar{
+height: 100px; 
+}
