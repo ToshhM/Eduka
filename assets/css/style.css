@@ -21,7 +21,16 @@ body{
     align-items: center;
     justify-content: center;
 }
-
+.images{
+    height: 40vh;
+    width: 100vw;
+    color: white;
+}
+.text{
+    color: black;
+    background-color: white ;
+    border-radius: 32px 32px 32px 32px !important;
+}
 .logo{
     display: flex;
     color: white;
