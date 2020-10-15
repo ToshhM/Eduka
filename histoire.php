@@ -1,24 +1,29 @@
 <?php require('template/header.php'); ?>
+<?php $page = "histoire"; ?>
 
 <div class="home">
     <?php require('template/navbar.php'); ?>
-    
+
     <div class="container"> 
-            <h1> <span class="line"> Nos Histoire !</span> </h1>
-        <div class="container-fluid">
-            <h2>Le chat et le poisson</h2>
-                <p><i class="far fa-clock"></i> 5 minutes</p>
-                <button> Jouer </button>
+        <h2 class="text-white text-center mt-3">Nos histoires</h2>
+        <hr class="w-25 mx-auto">
+        <div class="story-container">
+            <h4>Le chat et le poisson</h4>
+            <div class="price">Gratuit</div>
+            <p><i class="far fa-clock"></i> 5 minutes</p>
+            <button class="btn btn-info w-50">Jouer</button>
             </div>
-        <div class="container-fluid">
-            <h2>Cabane magique</h2>
-                <p><i class="far fa-clock"></i> 8 min minutes</p>
-                <button> Jouer </button>
-            </div>
-        <div class="container-fluid">
-            <h2>La rivière mystère</h2>
-                <p><i class="far fa-clock"></i> 5 minutes</p>
-                <button> Jouer </button>
+        <div class="story-container">
+            <h4>Cabane magique</h4>
+            <div class="price">Premium</div>
+            <p><i class="far fa-clock"></i> 8 minutes</p>
+            <button class="btn btn-info w-50">Jouer</button>
+        </div>
+        <div class="story-container">
+            <h4>La rivière mystère</h4>
+            <div class="price">Premium</div>
+            <p><i class="far fa-clock"></i> 5 minutes</p>
+            <button class="btn btn-info w-50">Jouer</button>
         </div>
     </div>
 </div>
