@@ -41,8 +41,9 @@
 if(isset($_POST['response']) && !empty($_POST['response'])) {
     $response = strtolower($_POST['response']);
     $isOkay = strpos($response, 'deux');
+    $isOkay2 = strpos($response, '2');
 
-    if($isOkay !== false) {
+    if($isOkay !== false || $isOkay2 !== false) {
         echo '<script>window.location.href = "story-10-success.php";</script>';
     } else {
         echo '<script>window.location.href = "story-false.php?redirect=story-10";</script>';

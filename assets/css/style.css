@@ -61,6 +61,7 @@ i {
     height: 100%;
     width: 100%;
     background-color: #BEE6FA;
+    padding-bottom: 20px;
 }
 .accueil{
     display: flex;
@@ -142,14 +143,12 @@ i {
 .btn-story {
     color: #fff !important;
     font-weight: 600 !important;
-    margin-bottom: 20px;
 }
 
 .btn-container {
     width: 90%;
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
 }
 .btn-action {
     width: 55px;
