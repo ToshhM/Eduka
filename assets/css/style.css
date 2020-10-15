@@ -142,12 +142,14 @@ i {
 .btn-story {
     color: #fff !important;
     font-weight: 600 !important;
+    margin-bottom: 20px;
 }
 
 .btn-container {
     width: 90%;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 .btn-action {
     width: 55px;
@@ -180,8 +182,22 @@ i {
     position: absolute;
     top: 180px;
     left: 60px;
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
+}
+.trophee-link-2 {
+    position: absolute;
+    top: 180px;
+    left: 220px;
+    width: 125px;
+    height: 125px;
+}
+.trophee-link-3 {
+    position: absolute;
+    top: 325px;
+    left: 50px;
+    width: 125px;
+    height: 125px;
 }
 
 .cam-container {
@@ -189,12 +205,18 @@ i {
     overflow: hidden;
 }
 
-.back {
-    z-index: 100;
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
+/* Profile */
+
+.profile-container {
+    width: 85%;
+    margin: 25px auto;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #fff;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 20px;
     position: relative;
-    top: 0;
-    left: 0;
+    background-color: #fab545;
+    font-size: 1.3em;
+    color: #212529;
 }

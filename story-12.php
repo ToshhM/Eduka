@@ -7,7 +7,7 @@
         <div class="main-container">
             <form method="POST" id="form">
                 <div class="img-container">
-                    <img src="assets/image/story-1/vignette-6.png" class="rounded d-block mx-auto mb-3" alt="Tom">
+                    <img src="assets/image/story-1/vignette-12.png" class="rounded d-block mx-auto mb-3" alt="Tom">
                     <div class="input-group form-story">
                         <input type="text" class="form-control" id="response" name="response" placeholder="Ta réponse">
                         <div class="input-group-append">
@@ -19,7 +19,7 @@
                 </div>
             </form>
             <div class="text-container">
-                <p>Tom a faim. Trouve la couleur des poissons les plus nombreux dans le lac !</p>
+                <p>Pour cela ils ont besoin de faire un feu ? De quoi avons-nous besoin pour en faire un ?</p>
             </div>
         </div>
         <div class="btn-container">
@@ -40,11 +40,11 @@
 
 if(isset($_POST['response']) && !empty($_POST['response'])) {
     $response = strtolower($_POST['response']);
-    $isOkay = strpos($response, 'rouge');
+    $isOkay = strpos($response, 'bois');
 
     if($isOkay !== false) {
-        echo '<script>window.location.href = "story-8-success.php";</script>';
+        echo '<script>window.location.href = "story-12-success.php";</script>';
     } else {
-        echo '<script>window.location.href = "story-false.php?redirect=story-8";</script>';
+        echo '<script>window.location.href = "story-false.php?redirect=story-12";</script>';
     }
 }

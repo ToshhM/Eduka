@@ -10,6 +10,12 @@
         <a href="trophee-1.php">
             <div class="trophee-link-1"></div>
         </a>
+        <a href="trophee-2.php">
+            <div class="trophee-link-2"></div>
+        </a>
+        <a href="trophee-3.php">
+            <div class="trophee-link-3"></div>
+        </a>
     </div>
 </div>
 

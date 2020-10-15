@@ -10,7 +10,9 @@
         </a>
     </div>
     <div>
-        <img src="assets/image/profile.png">
+        <a href="profile.php">
+            <img src="assets/image/<?php if(isset($page) && $page == "profile") { echo 'profile-active.png'; } else { echo 'profile.png'; } ?>">
+        </a>
     </div>
     <div>
         <img src="assets/image/settings.png">

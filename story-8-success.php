@@ -9,11 +9,10 @@
                 <img src="assets/image/story-1/vignette-7.png" class="rounded d-block mx-auto mb-3" alt="Tom">
             </div>
             <div class="text-container">
-                <p>Oui bravo ! 
-</p>
+                <p>Oui bravo ! </p>
             </div>
         </div>
-        <a href="story-16.php" class="btn-story btn btn-warning mt-3 w-50">Bravo tu as réussi !</a>
+        <a href="story-9.php" class="btn-story btn btn-success mt-3 w-50">BRAVO TU AS RÉUSSI !</a>
     </div>
 </div>
 

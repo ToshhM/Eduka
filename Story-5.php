@@ -39,7 +39,7 @@
 <?php
 
 if(isset($_POST['response']) && !empty($_POST['response'])) {
-    $response = $_POST['response'];
+    $response = strtolower($_POST['response']);
     $isOkay = strpos($response, 'canne à pêche');
 
     if($isOkay !== false) {
