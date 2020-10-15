@@ -6,15 +6,13 @@
         <h2 class="my-3">Le chat et le poisson</h2>
         <div class="main-container">
             <div class="img-container">
-                <img src="assets/image/story-1/vignette-3.png" class="rounded d-block mx-auto mb-3" alt="Tom">
+                <img src="assets/image/story-1/vignette-1.png" class="rounded d-block mx-auto mb-3" alt="Tom">
             </div>
             <div class="text-container">
-                <p>Il lui faudrait quelque 
-                chose pour pouvoir 
-                les pêcher. </p>
+                <p>Oui le poisson j'adore ça ! </p>
             </div>
         </div>
-        <a href="story-5.php" class="btn-story btn btn-warning mt-3 w-50">OUI !</a>
+        <a href="story-3.php" class="btn-story btn btn-success mt-3 w-50">BRAVO TU AS RÉUSSI !</a>
     </div>
 </div>
 

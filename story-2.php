@@ -42,10 +42,9 @@ if(isset($_POST['response']) && !empty($_POST['response'])) {
     $response = $_POST['response'];
     $isOkay = strpos($response, 'poisson');
 
-    var_dump('coucou');
-    if($isOkay) {
-        echo '<script>window.location.href = "story-3.php";</script>';
+    if($isOkay !== false) {
+        echo '<script>window.location.href = "story-2-success.php";</script>';
     } else {
-        echo '<script>window.location.href = "story-4.php";</script>';
+        echo '<script>window.location.href = "story-false.php?redirect=story-2";</script>';
     }
 }

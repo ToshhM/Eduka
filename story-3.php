@@ -9,12 +9,13 @@
                 <img src="assets/image/story-1/vignette-3.png" class="rounded d-block mx-auto mb-3" alt="Tom">
             </div>
             <div class="text-container">
-                <p>Il lui faudrait quelque 
-                chose pour pouvoir 
-                les pêcher. </p>
+                <p>Malheureusement Tom
+                a peur de l’eau et ne 
+                peut pas attraper de 
+                poisson... </p>
             </div>
         </div>
-        <a href="story-5.php" class="btn-story btn btn-warning mt-3 w-50">OUI !</a>
+        <a href="story-4.php" class="btn-story btn btn-warning mt-3 w-50">AH BON ?</a>
     </div>
 </div>
 
