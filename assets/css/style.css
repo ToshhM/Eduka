@@ -5,13 +5,12 @@
 
 body{
     font-family: futura;
-    
 }
 
 .home{
     height: 100vh;
     width: 100vw;
-    background-color:#3299CC ;
+    background-color: dimgray;
 }
 .image{
     display: flex;
@@ -21,7 +20,6 @@ body{
     text-align: center;
     align-items: center;
     justify-content: center;
-
 }
 
 .logo{
@@ -40,14 +38,17 @@ body{
     text-align: center;
     justify-content: center;
     flex-direction: column;
-    height: 600px;
+    height: 70vh;
+    width: 100vw;
     
     
 }
 .Navbar{
-    height: 50px; 
-    width: 100%;
-    background-color: dimgray;
+    height: 10vh;
+    width: 100vw;
+    
+    background-color:#3299CC ;
+}
 }
 h1{
     color: white;
@@ -56,7 +57,9 @@ ul{
     list-style: none;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between ;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 button {
@@ -85,10 +88,7 @@ Button:active {
 }
 .footer{
     width: 372px;
-    display: flex;
+    height: 20vh;
     align-items: center;
     text-align: center;
-    justify-content: center;
-    flex-direction: column;
-
 }
