@@ -4,7 +4,7 @@
 }
 
 body{
-    font-family: futura;
+    color:white;
 }
 
 .home{
@@ -49,9 +49,20 @@ body{
     
     background-color:#3299CC ;
 }
-}
+
 h1{
     color: white;
+    text-align: center;
+}
+.line{
+   
+    border-bottom: 10px solid #fff;
+}
+h2{
+    color:white;
+}
+p{
+    color:white;
 }
 ul{
     list-style: none;
@@ -61,12 +72,20 @@ ul{
     margin-left: 10px;
     margin-right: 10px;
 }
+.container-fluid{
+    margin: 25px;
+    text-align: center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 32px 32px 32px 32px;
+}
+
+
 
 button {
 	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
 	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
-	background-color:#79bbff;
-	border-radius:6px;
+    background-color:#79bbff;
+    border-radius: 32px 32px 32px 32px !important;
 	border:1px solid #84bbf3;
 	display:inline-block;
 	cursor:pointer;
@@ -77,6 +96,7 @@ button {
 	text-decoration:none;
     text-shadow:0px 1px 0px #528ecc;
     font-family: futura;
+    
 }
 button:hover {
 	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
