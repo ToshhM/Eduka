@@ -6,7 +6,7 @@
 body{
     height: 100vh;
     width: 100vw;
-    color:#fff;
+    color:#fff !important;
     opacity: 0; 
     transition: opacity .5s;
 }
@@ -16,11 +16,15 @@ hr {
     border-radius: 25px;
 }
 
+h2 {
+    color: #F7A521;
+}
+
 /* Navbar */
 .navbar {
     height: 10%;
     width: 100%;
-    background-color:#348DBA;
+    background-color:#FDA921;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -33,20 +37,20 @@ hr {
 .anim {
     height: 100%;
     background-color: #61BFE5;
+    position: relative;
 }
-.anim-container {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+.anim-button {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 /* Accueil */
 
 .home{
     height: 100%;
-    background-color: #3A3C3D;
+    background-color: #BEE6FA;
 }
 .accueil{
     display: flex;
@@ -60,7 +64,7 @@ hr {
 
 /* Histoires */
 
-.story-container{
+.stories-container{
     width: 85%;
     margin: 25px auto 25px auto;
     padding: 5px;
@@ -71,6 +75,10 @@ hr {
     color: #fff;
     position: relative;
 }
+.inactive {
+    background-color: #878A8A;
+    opacity: 0.6;
+}
 .price {
     background-color: orange;
     font-size: 0.7em;
@@ -79,4 +87,67 @@ hr {
     position: absolute;
     top: -10px;
     right: 10px;
+}
+
+/* Histoire 1 */
+
+.story-container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-container {
+    width: 80%;
+    height: 75%;
+}
+.img-container {
+    position: relative;
+}
+.main-container img {
+    width: 100%;
+    height: 50%;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
+}
+.form-story {
+    position: absolute !important;
+    width: 95% !important;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.text-container {
+    background-color: #fff;
+    color: #212529;
+    font-size: 1.3em;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.text-container p {
+    margin: 0;
+}
+.btn-story {
+    color: #fff !important;
+    font-weight: 600 !important;
+}
+
+.btn-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-action {
+    width: 55px;
+    height: 55px;
+    border-radius: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDA921;
+}
+.btn-icon {
+    font-size: 1.8em;
 }
