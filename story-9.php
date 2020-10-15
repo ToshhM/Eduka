@@ -6,7 +6,7 @@
         <h2 class="my-3">Le chat et le poisson</h2>
         <div class="main-container">
             <div class="img-container">
-                <img src="assets/image/story-1/vignette-4.png" class="rounded d-block mx-auto mb-3" alt="Tom">
+                <img src="assets/image/story-1/vignette-5.png" class="rounded d-block mx-auto mb-3" alt="Tom">
             </div>
             <div class="text-container">
                 <p>Etant gourmand mais 
