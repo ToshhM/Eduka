@@ -57,6 +57,7 @@ h2 {
 
 .home{
     height: 100%;
+    width: 100%;
     background-color: #BEE6FA;
 }
 .accueil{
@@ -161,15 +162,36 @@ h2 {
 
 /** Trophée*/
 
-.background{
-    height: 100vh;
-    width: 100vw;
+.bg-image {
+    position: relative;
+    width: 100%;
 }
-.position{
+.trophee-title {
+    color: #FDA921;
     position: absolute;
-    margin-left: 75px;
+    top: 125px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+.trophee-link-1 {
+    position: absolute;
+    top: 180px;
+    left: 60px;
+    width: 100px;
+    height: 100px;
 }
 
-.trophee{
-    text-align: center ;
+.cam-container {
+    margin: 0;
+    overflow: hidden;
+}
+
+.back {
+    z-index: 100;
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+    left: 0;
 }
