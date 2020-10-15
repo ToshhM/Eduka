@@ -85,7 +85,7 @@ hr {
 
 .background{
     height: 100%;
-    background-image: url("./image/trophee.png");
+    background-image: url(".assets/image/trophee.png");
 
 }
 .trophee{
