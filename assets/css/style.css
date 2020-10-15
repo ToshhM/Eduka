@@ -85,9 +85,12 @@ hr {
 
 .background{
     height: 100%;
-    background-image: url("/assets/image/trophee.png");
-
 }
+.position{
+    position: absolute;
+    margin-left: 75px;
+}
+
 .trophee{
-    text-align: center;
+    text-align: center ;
 }
