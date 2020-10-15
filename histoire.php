@@ -1,16 +1,8 @@
 <?php require('template/header.php'); ?>
 
 <div class="home">
-    <div class="Navbar">
-        <ul>
-            <li><img src="assets/image/book.png"></li>
-            <li><img src="assets/image/Tracé 2.png"></li>
-            <li><img src="assets/image/profile.png"></li>
-            <li><img src="assets/image/settings.png"></li>
-        </ul>
-
-        
-    </div>
+    <?php require('template/navbar.php'); ?>
+    
     <div class="container"> 
             <h1> <span class="line"> Nos Histoire !</span> </h1>
         <div class="container-fluid">
