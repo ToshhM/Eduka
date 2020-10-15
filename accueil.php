@@ -1,4 +1,4 @@
-<?php require('views/template/header.php'); ?>
+<?php require('template/header.php'); ?>
 
 <div class="home">
     <div class="Navbar">
@@ -17,4 +17,4 @@
     </div>
 </div>
 
-<?php require('views/template/footer.php'); ?>
+<?php require('template/footer.php'); ?>
